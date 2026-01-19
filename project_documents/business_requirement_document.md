@@ -42,9 +42,9 @@ We'll leave the sourcing of data to your good self. However, there's a few essen
 
 -         The above datasets must be of **high quality** without any missing values -- we expect something closer to 'idealistic' data as we don't have the resources to clean the data in-house yet.
 
--         **The datasets must preferably be available for free** (or sourced from the public domain) as I've not yet received approval for the premium market data subscription. Again, I'm hoping this will be done sooner than later but for now, please 'grab' whatever's out there)
+-         **The datasets must preferably be available for free** (or sourced from the public domain) as I've not yet received approval for the premium market data subscription. Again, I'm hoping this will be done sooner than later but for now, please 'grab' whatever's out there!
 
--         The datasets must provide the following **date range: 1^st^ Jan 2020 to 31^st^ December 2025** (and capture the period where Covid hits the US -- a *Jimmy* from my Economic Data BA team is keen to see its impact on ETF pricing as well as on macroeconomic indicators).
+-         The datasets must provide the following **date range: 1st Jan 2020 to 31st December 2025** (and capture the period where Covid hits the US -- a *Jimmy* from my Economic Data BA team is keen to see its impact on ETF pricing as well as on macroeconomic indicators).
 
 -         ETF datasets must include the following 'Tickers' (at least to start with, we can get more added later).
 
