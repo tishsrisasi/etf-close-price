@@ -83,7 +83,7 @@ You'll have more creative space here. However, the Dashboard for my Economists a
 
 -         Linking both datasets -- please select by dates, choosing only to pull back matching rows.
 
--         Linking ETF Market data Graphs to Macroeconomic Indicator data Graphs -- my Tableau guru *Lisa* says there is a function in Tableau to help you with this. Essentially, you'll need to convert the graphs in both datasets to show percentage movements relative to a specific date (say starting range date of 1^st^ January 2020) this will ensure what you see on ETF data-driven graph is relatable to what you'd see on a Macroeconomic data-driven graph. I'll try to send you the way to do this, but I'll need to go back to her first to clarify.
+-         Linking ETF Market data Graphs to Macroeconomic Indicator data Graphs -- my Tableau guru *Lisa* says there is a function in Tableau to help you with this. Essentially, you'll need to convert the graphs in both datasets to show percentage movements relative to a specific date (say starting range date of 1st January 2020) this will ensure what you see on ETF data-driven graph is relatable to what you'd see on a Macroeconomic data-driven graph. I'll try to send you the way to do this, but I'll need to go back to her first to clarify.
 
 -         You'll have to create an **"Overall"** dashboard, pitting 6 ETF Close Price averages against the overall  top 10 Macroeconomic influencers. This will be determined by the results of your ML ETF close price predictor model. For the sake of user customisation, please ensure that the graphs on this are 'hot-swappable' meaning someone on my team would be able to swap one macroeconomic graph for another in this dashboard.
 
