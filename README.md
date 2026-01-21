@@ -157,7 +157,9 @@ Dashboards: Deployment
 | \-          QQQ | [https://public.tableau.com/app/profile/teerachai.srisasi/viz/Tableau\_ETF\_Final/QQQ](https://public.tableau.com/app/profile/teerachai.srisasi/viz/Tableau_ETF_Final/QQQ) |
 | \-          QQQE | [https://public.tableau.com/app/profile/teerachai.srisasi/viz/Tableau\_ETF\_Final/QQQE](https://public.tableau.com/app/profile/teerachai.srisasi/viz/Tableau_ETF_Final/QQQE) |
 | \-          VOO | [https://public.tableau.com/app/profile/teerachai.srisasi/viz/Tableau\_ETF\_Final/VOO](https://public.tableau.com/app/profile/teerachai.srisasi/viz/Tableau_ETF_Final/VOO) |
-| Power BI:(No Cloud Service -- Local File Only) | etf-close-price\dashboards\power_BI\etf_power_bi_final.pbix |
+| Power BI:(No Cloud Service -- Local File Only) |  ![alt text](reports/power_bI_file.jpg)|
+
+
 
 Main Data Analysis Tools and Libraries
 --------------------------------------
