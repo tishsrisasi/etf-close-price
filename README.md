@@ -145,7 +145,7 @@ Dashboards: Deployment
 ![alt text](reports/tableau2_heatmap_wall_db.jpg)
 ## Tableau - Health Check - ETF Watcher's Screen (Dashboard)
 ![alt text](reports/tableau3_etf_health_check_db.jpg)
-## Tableau = Overall Dashboard
+## Tableau - Overall Dashboard
 ![alt text](reports/tableau1_overall_db.jpg)
 
 | **Application** | **Link** |
