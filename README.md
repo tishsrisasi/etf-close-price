@@ -186,7 +186,7 @@ Ethical Considerations/GDPR
 | **BIAS and fairness concerns** | As mentioned earlier, the FRED economic data's limited scope covers just US-based ETFs. Therefore, it should NOT be used on a global scale (country bias), e.g. predicting Global ETF close prices. |
 | **Legal note** | FRED data is public domain from the St. Louis Fed -- and is free for non-commercial use only -- there is no direct/indirect endorsement here from me and you are free to select other sources as a basis for running your models on. |
 | **UK Regulatory compliance** | Any *performance claims* within this project are merely speculative and should not be considered as financial advice. |
-| **GDPR notes** | FRED and Yahoo Finance data contains no personal data, so GDPR is not applicable -- this capstone is compliant be default. |
+| **GDPR notes** | FRED and Yahoo Finance data contains no personal data, so GDPR is not applicable -- this capstone is compliant by default. |
 
 
 Disclaimer (UK)
