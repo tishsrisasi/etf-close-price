@@ -199,8 +199,20 @@ Disclaimer (UK)
 Credits
 -------
 
+- [**Perplexity AI**](https://perplexity.ai)-- for the Banner Image and Disclaimer (UK) above, as well as helping me debug my coding efforts.
+
+- [**Code Institute: Data Analytics with AI Bootcamp Course Notes**](https://codeinstitute.net/data-analytics-and-ai-bootcamp/) -- The Masterclass Notebooks (by John Anilh) were particularly inspirational for Python code, ML concepts, and data visualization ideas.
+
+- [**Udemy**](https://www.udemy.com/course/tableau-for-beginners-free/learn/lecture/32946634?start=150) -- Free Course on Tableau called "Introduction to Tableau Data Visualization for Beginners -- by Jed Guinto"  
+
+- [**md2word.com**](https://www.md2word.com/en) for the most help with converting my Word documents to Markdown.
+
 Acknowledgements
 ----------------
+
+- Thank you, Gordon Fuller, for giving me my first city job as a Data Business Analyst.
+
+- This piece of work is dedicated to my sister, Netch, whose cooking skills kept her brother well nourished throughout this course. I couldn't have done all this without your help!
 
 Footnote (as a reminder to myself)
 --------
