@@ -1,4 +1,4 @@
-
+![ETF Capstone Banner](reports/generated-image.png)
 
 ETF Prediction ML Models: A Brief Background
 ============================================
