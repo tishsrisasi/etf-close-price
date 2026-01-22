@@ -102,7 +102,7 @@ Audit Trail: Project Board & Documents Provided
 | Business Requirement Document (mock email format) | Markdown, 18/01/2026, Version 1.0 |
 | Functional Specification Document | Markdown, 18/01/2026, Version 1.0 |
 | Testing Checklist & Results Summary | Markdown, 18/01/2026, Version 1.0 |
-| Project Board | https://trello.com/b/bhCNa53F/capstone-project-tish-srisasi-etf-close-price |
+| Project Plan/Board | https://trello.com/b/bhCNa53F/capstone-project-tish-srisasi-etf-close-price |
 
 Git-Hub Directory Structure (Data Files in CSV format)
 ---------------------------
@@ -207,7 +207,7 @@ Disclaimer (UK)
 Credits
 -------
 
-- [**Perplexity AI**](https://perplexity.ai)-- for the Banner Image and Disclaimer (UK) above, as well as helping me debug my coding efforts.
+- [**Perplexity AI**](https://perplexity.ai)-- for the Banner Image and Disclaimer (UK) above, as well as helping me with coding complex loops and my idea to run multiple models (as realised in Notebook 4).
 
 - [**Code Institute: Data Analytics with AI Bootcamp Course Notes**](https://codeinstitute.net/data-analytics-and-ai-bootcamp/) -- The Masterclass Notebooks (by John Anilh) were particularly inspirational for Python code, ML concepts, and data visualization ideas.
 
