@@ -134,18 +134,150 @@ Project Delivery Challenges & Bug Fixes
 
 - **Potential BUG &** **User Oversight** -- on Tableau -- as the dashboards were build earlier on, due to a typo, I was pulling down ETF Tickers called 'SPY' however it should have been 'SKY'. Due to the version of Tableau we were given, I got an error when trying to change the data source. So, I've left the Tableau data set as is and provided the data files used to create the dashboard for review purposes. Fortunately, SPY is also a US-Based ETF and has similar characteristics to 'SKY' (probably more by luck than design -- but it appears to have worked out well).
 
-Dashboards: Deployment
-----------------------
+Data Visualisation Rationale
+----------------------------
+
+### Power BI (Desktop and Cloud versions)
+
+- **All charts are created from the \[Yahoo Finance\] & {ETF} dataset**
+
+### Tableau Public (Desktop and Cloud versions)
+
+- All charts are created from the \[Yahoo Finance\] & {ETF} dataset
+
+- Here we mix and match FRED macroeconomic indicators data and Yahoo Finance ETF datasets according to Feature Importance results
+
+- Overall Dashboard: \[Key Macroeconomic Indicators\] vs {ETF Close Price -- 6 chosen ETFs}
+
+  - All chart calculations are based on % value change from first date -- this is across both ETF and macroeconomic charts for sake of comprehensive like-to-like comparisons between 2 datasets.
+
+  - This shows the top 10 Feature Importance charts versus
+
+  - ETF Close Price (for chosen ETF tickers in the application's filter)
+
+- Heatmap Wall: {ETF} & \[Macroeconomic\] Data
+
+  - Not based on Model results (just shows differences across same timeline)
+
+  - Can be made Hot-Swappable depending on demand
+
+- ETF Health Check (created for Individual ETF Tickers e.g. QQQ)
+
+  - All chart calculations are based on % value change from first date -- this is across both ETF and macroeconomic charts for sake of comprehensive like-to-like comparisons between 2 datasets.
+
+  - Made from the top 6 Feature Importance for a particular ETF versus
+
+  - ETF's Average Closing Price (Line) and Average Volume (Bar)
+
+  - Hot-Swappable option is available
+
+  - Can be made for each ETF that's in a particular investment portfolio (3 sample Watcher Tickers provided)
+
+  - All chart calculations are based on % value change from first date -- this is across both ETF and macroeconomic charts for sake of accurate comparisons
+
+
+
+Dashboards: Design & Deployment
+-------------------------------
+
+Power BI (Desktop and Cloud Versions)
+-------------------------------------
+- **Target Audience: ETF Investors & ETF Traders/Trading Desks**
+
+- **All charts are created from the \[Yahoo Finance\] & {ETF} dataset**
+
 ## Power BI - Board 1 (Dashboard)
 ![Power BI](reports/powerBI2_board1_db.jpg)
+
+- {Period Selector} (By Year, Quarter, Month and Day)(List Slicer)
+
+- {ETF selector} (which also shows the highest average value)(Button Slicer) -- Choice of 6 Tickers in the demo version (but can be expanded to all 20)
+
+- {ETF Average Closing Price} (Bar Charts) -- X Axis Date; Y Axis Average Closing Price
+
+- {ETF Average Price Movement} (Donut Chart)
+
+- {ETF Average Open Price} (Area Chart)
+
 ## Power BI - Board 2 (Dashboard)
 ![alt text](reports/powerBI1_board2_db.jpg)
-## Tableau - Heatmap Wall (Dashboard)
+
+- {Period Selector} (By Year, Quarter, Month and Day)(List Slicer)
+
+- {ETF selector} (which also shows the highest average value)(Button Slicer) -- Choice of 6 Tickers
+
+- {ETF Average Close Price by Price Movement Category} (Treemap Chart)
+
+- {ETF Average Lows, Close and Highs} (Gauge Chart)
+
+- {ETF Average Dividends} (Ribbon Chart)
+
+- {ETF Average Volume} (Line and Stacked Column Chart)
+
+Tableau Public (Desktop and Cloud versions)
+-------------------------------------------
+
+-          **Target Audience: ETF Watchers & Economic or Financial Business Analysts**
+
+-          **All charts are created from the \[Yahoo Finance\] & {ETF} dataset**
+
+## Tableau - Heatmap Wall {ETF} & [Macroeconomic] Data
 ![alt text](reports/tableau2_heatmap_wall_db.jpg)
-## Tableau - Health Check - ETF Watcher's Screen (Dashboard)
+
+(all Heatmap Charts, with hot-swappable interface)
+
+- {Average ETF Closing Price}
+
+- {Average ETF Trading Volume}
+
+- \[Average Price of Electricity\]
+
+- \[Average Non-Farm Payroll\]
+
+- \[Average Price of Eggs\]
+
+- \[Average GDP\]
+
+
+## Tableau - Health Check - ETF Watcher's Screen (created for Individual ETF Tickers e.g. QQQ)
 ![alt text](reports/tableau3_etf_health_check_db.jpg)
-## Tableau - Overall Dashboard
+
+- {QQQ Close Price & Trade Volume} (Line and Column Charts combo)
+
+- \[Natural Rate of Unemployment\] (Line Chart)
+
+- \[Non-Farm Payrolls\] (Line Chart)
+
+- \[Monetary Base\] (Line Chart)
+
+- \[Core CPI and CPI Inflation\] (Line Charts)
+
+- \[Personal Consumption Expenditure\] (Line Chart)
+
+## Tableau - Overall Dashboard : [Key Macroeconomic Indicators] vs {ETF Close Price – 6 chosen ETFs} 
 ![alt text](reports/tableau1_overall_db.jpg)
+
+(all Line Charts, with hot-swappable interface)
+
+- {ETF Close Price Summary}
+
+- \[Produce Price Index\]
+
+- \[Core CPI and CPI Inflation\]
+
+- \[10Y-2Y Treasury Spread\]
+
+- \[Average Price of Electricity\]
+
+- \[Natural Rate of Unemployment\]
+
+- \[GDP\]
+
+- \[Personal Consumption Expenditure\]
+
+- \[Capacity Utilization: Manufacturing\]
+
+- \[M2 Money Stock\]
 
 | **Application** | **Link** |
 | --- |  --- |
