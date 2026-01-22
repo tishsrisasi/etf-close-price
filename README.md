@@ -207,7 +207,7 @@ Disclaimer (UK)
 Credits
 -------
 
-- [**Perplexity AI**](https://perplexity.ai)-- for the Banner Image and Disclaimer (UK) above, as well as helping me with coding complex loops and my idea to run multiple models (as realised in Notebook 4).
+- [**Perplexity AI**](https://perplexity.ai)-- for the Banner Image and Disclaimer (UK) above, as well as helping me with coding API data extraction, complex loops and (my idea) to run multiple models (as realised in Notebook 4).
 
 - [**Code Institute: Data Analytics with AI Bootcamp Course Notes**](https://codeinstitute.net/data-analytics-and-ai-bootcamp/) -- The Masterclass Notebooks (by John Anilh) were particularly inspirational for Python code, ML concepts, and data visualization ideas.
 
