@@ -1,16 +1,4 @@
-Forward
-=======
 
-For my capstone project, I wanted to do something a bit **different**:
-
--         I wanted to move away from the limitations of *Kaggle* and try to make my own dynamic dataset using *APIs*.
-
--         I wanted to continue with the *storytelling* from my [Individual Formulative Assignment](https://github.com/tishsrisasi/Individual_Formative_Assignment) (link provided).
-
--         I wanted to mimic predictive Machine Learning models like those currently used in real-world situations.        
-
-**Teerachai ('Tish') Srisasi**
-**(19th January 2026)**
 
 ETF Prediction ML Models: A Brief Background
 ============================================
@@ -63,25 +51,24 @@ Business Variable Scope
 
 Hypotheses (what I intend to prove):
 ------------------------------------
+| **No.** | **Hypothesis Description** |
+| --- |  --- |
+| **H0:** | Machine Learning ETF (**H2** and **H3**) predictions accuracy relies heavily on macroeconomic data |
+| **H1:** | Most ETF close prices and price direction are heavily influenced by GDP data figures |
+| **H2:** | Most ETF close prices are accurately predicted using *just* macroeconomic data |
+| **H3:** | Most ETF price directions are accurately predicted, again using just macroeconomic data |
 
--         **H0:** Machine Learning ETF (**H2** and **H3**) predictions accuracy relies heavily on macroeconomic data.
-
--         **H1:** Most ETF close prices and price direction are heavily influenced by GDP data figures
-
--         **H2:** Most ETF close prices are accurately predicted using *just* macroeconomic data
-
--         **H3:** Most ETF price directions are accurately predicted, again using just macroeconomic data
 
  Hypotheses Validation Methods (what I will use to prove the above):
 --------------------------------------------------------------------
 
--         **V0:** Parallel testing datasets with and without macroeconomic data using Classical Machine Learning
+| **No.** | **Validation Method Description** |
+| --- |  --- |
+| **V0:** | Parallel testing datasets with and without macroeconomic data using Classical Machine Learning |
+| **V1:** | Classical Machine Learning -- Feature Selection |
+| **V2:** | Classical Machine Learning -- Linear Regression |
+| **V3:** | Feature Engineering - Machine Learning -- Classification by Random Forrest |
 
--         **V1:** Classical Machine Learning -- Random Forrest Classifier & Feature Selection
-
--         **V2:** Classical Machine Learning -- Linear Regression
-
--         **V3:** Feature Engineering - Machine Learning -- Classification by Random Forrest
 
 Dataset Source(s): Considered
 =============================
@@ -123,13 +110,12 @@ Git-Hub Directory Structure
 
 
 	
-Project Results Summary
+Project Result Highlights
 -----------------------
 ![alt text](reports/regression_results1.png)
 
 ![alt text](reports/regression_results3.png)
 
-![alt text](reports/regression_results4.png)
 
 Project Delivery Challenges & Bug Fixes
 ---------------------------------------
@@ -162,7 +148,7 @@ Dashboards: Deployment
 | \-          QQQ | [https://public.tableau.com/app/profile/teerachai.srisasi/viz/Tableau\_ETF\_Final/QQQ](https://public.tableau.com/app/profile/teerachai.srisasi/viz/Tableau_ETF_Final/QQQ) |
 | \-          QQQE | [https://public.tableau.com/app/profile/teerachai.srisasi/viz/Tableau\_ETF\_Final/QQQE](https://public.tableau.com/app/profile/teerachai.srisasi/viz/Tableau_ETF_Final/QQQE) |
 | \-          VOO | [https://public.tableau.com/app/profile/teerachai.srisasi/viz/Tableau\_ETF\_Final/VOO](https://public.tableau.com/app/profile/teerachai.srisasi/viz/Tableau_ETF_Final/VOO) |
-| Power BI:(No Cloud Service -- Local File Only) |  ![alt text](reports/power_bI_file.jpg)|
+| Power BI: (No Cloud Service -- Local File Only) |  ![alt text](reports/power_bI_file.jpg)|
 
 
 
@@ -173,37 +159,35 @@ Main Data Analysis Tools and Libraries
 
 Business Applications
 ---------------------
+These models have strong business pontential in the finance sector (however for the purposes of this capstone project, it should be used for educational purposes only)_
+
+- Trading Strategies
+- Portfolio Management
+- Risk & Analytics
+- Institutional Applications
 
 ### Next Steps
-
--          Feed the Yahoo Finance: ETF and FRED: macroeconomic indicator data directly into Power BI and Tableau
-
--          Use the predictive models to create an app in Streamlit -- then deploy
-
--          Add new ETF and Macroeconomic Features for 'premium users' (list provided)
-
--          Test other types of ML models and see which one gives better predictive accuracy
-
--          Finally build a live direct API feed into the ML model and test to see if this can be used to accurately predict ETF direction and current price.
-
--          Expand to Global ETF & Macroeconomic datasets using available and relevant APIs.
-
--          Further use of ML Cross-Validation models for transparency.
+---------------------
+1. Feed the Yahoo Finance: ETF and FRED: macroeconomic indicator data directly into Power BI and Tableau
+2. Use the predictive models to create an app in Streamlit -- then deploy
+3. Add new ETF and Macroeconomic Features for 'premium users' (list provided)
+4. Test other types of ML models and see which one gives better predictive accuracy
+5. Finally build a live direct API feed into the ML model and test to see if this can be used to accurately predict ETF direction and current price.
+6. Expand to Global ETF & Macroeconomic datasets using available and relevant APIs.
+7. Further use of ML Cross-Validation models for transparency.
 
 Ethical Considerations/GDPR
 ---------------------------
 
--          **Disclaimer:** As per the **section** below -- I must emphasise that this project is educational only and utilises only public and freely available FRED economic data. The model has limitations and should NOT be used commercially.
+| **Subject Matter** | Supporting Statement |
+| --- |  --- |
+| **Disclaimer** | As per the **section** below, I must emphasise that this project is educational only and utilises only public and freely available FRED economic data. The model has limitations and should NOT be used commercially. |
+| **Ethical Consideration** | Models' limitations: Please note that past performance of economic indicators does not predict FUTURE ETF close prices due to the uncertainty of market volatility, BLACK SWAN events and potential overfitting risks. |
+| **BIAS and fairness concerns** | As mentioned earlier, the FRED economic data's limited scope covers just US-based ETFs. Therefore, it should NOT be used on a global scale (country bias), e.g. predicting Global ETF close prices. |
+| **Legal note** | FRED data is public domain from the St. Louis Fed -- and is free for non-commercial use only -- there is no direct/indirect endorsement here from me and you are free to select other sources as a basis for running your models on. |
+| **UK Regulatory compliance** | Any *performance claims* within this project are merely speculative and should not be considered as financial advice. |
+| **GDPR notes** | FRED and Yahoo Finance data contains no personal data, so GDPR is not applicable -- this capstone is compliant be default. |
 
--          **Ethical Consideration** - Model's limitations: Please note that past performance of economic indicators does not predict FUTURE ETF close prices due to the uncertainty of market volatility, BLACK SWAN events and potential overfitting risks.
-
--          **BIAS and fairness concerns** -- as mentioned, the FRED economic data's limited scope covers just US-based ETFs. Therefore, it should NOT be used on a global scale (country bias), e.g. predicting Global ETF close prices.
-
--          **Legal note** -- FRED data is public domain from the St. Louis Fed -- and is free for non-commercial use only -- there is no direct/indirect endorsement here from me and you are free to select other sources as a basis for running your models on.
-
--          **Regulatory compliance** -- any *performance claims* within this project are speculative and should not be considered as financial advice.
-
--          **GDPR notes** -- FRED and Yahoo Finance data contains no personal data, so GDPR is not applicable -- this capstone is compliant by default.
 
 Disclaimer (UK)
 ---------------
@@ -217,3 +201,17 @@ Credits
 
 Acknowledgements
 ----------------
+
+Footnote (as a reminder to myself)
+--------
+
+For my capstone project, I wanted to do something a bit **different**:
+
+-         I wanted to move away from the limitations of *Kaggle* and try to make my own dynamic dataset using *APIs*.
+
+-         I wanted to continue with the *storytelling* from my [Individual Formulative Assignment](https://github.com/tishsrisasi/Individual_Formative_Assignment) (link provided).
+
+-         I wanted to mimic predictive Machine Learning models like those currently used in real-world situations.        
+
+**Teerachai ('Tish') Srisasi**  
+(19th January 2026)
