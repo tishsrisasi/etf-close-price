@@ -132,7 +132,7 @@ Project Delivery Challenges & Bug Fixes
 
 ### Dashboards
 
-- **Potential BUG &** **User Oversight** -- on Tableau -- as the dashboards were build earlier on, due to a typo, I was pulling down ETF Tickers called 'SPY' however it should have been 'SKY'. Due to the version of Tableau we were given, I got an error when trying to change the data source. So, I've left the Tableau data set as is and provided the data files used to create the dashboard for review purposes. Luckily SPY is also a US-Based ETF and has similar characteristics to 'SKY' (probably more by luck than design -- but it appears to have worked out well).
+- **Potential BUG &** **User Oversight** -- on Tableau -- as the dashboards were build earlier on, due to a typo, I was pulling down ETF Tickers called 'SPY' however it should have been 'SKY'. Due to the version of Tableau we were given, I got an error when trying to change the data source. So, I've left the Tableau data set as is and provided the data files used to create the dashboard for review purposes. Fortunately, SPY is also a US-Based ETF and has similar characteristics to 'SKY' (probably more by luck than design -- but it appears to have worked out well).
 
 Dashboards: Deployment
 ----------------------
