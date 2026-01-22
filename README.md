@@ -219,7 +219,7 @@ Tableau Public (Desktop and Cloud versions)
 
 -          **Target Audience: ETF Watchers & Economic or Financial Business Analysts**
 
--          **All charts are created from the \[Yahoo Finance\] & {ETF} dataset**
+-          **All charts are created from the \[FRED Macroeconomic Indicator data\] & {Yahoo Finance:ETF} dataset**
 
 ## Tableau - Heatmap Wall {ETF} & [Macroeconomic] Data
 ![alt text](reports/tableau2_heatmap_wall_db.jpg)
