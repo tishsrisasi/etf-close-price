@@ -123,8 +123,13 @@ Git-Hub Directory Structure
 
 
 	
+Project Results Summary
+-----------------------
+![alt text](reports/regression_results1.png)
 
+![alt text](reports/regression_results3.png)
 
+![alt text](reports/regression_results4.png)
 
 Project Delivery Challenges & Bug Fixes
 ---------------------------------------
@@ -164,8 +169,7 @@ Dashboards: Deployment
 Main Data Analysis Tools and Libraries
 --------------------------------------
 
-Project Results Summary
------------------------
+
 
 Business Applications
 ---------------------
@@ -199,7 +203,7 @@ Ethical Considerations/GDPR
 
 -          **Regulatory compliance** -- any *performance claims* within this project are speculative and should not be considered as financial advice.
 
--          **GDPR notes** -- FRED and Yahoo Finance data contains no personal data, so GDPR is not applicable -- this capstone is compliant be default.
+-          **GDPR notes** -- FRED and Yahoo Finance data contains no personal data, so GDPR is not applicable -- this capstone is compliant by default.
 
 Disclaimer (UK)
 ---------------
