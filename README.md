@@ -139,11 +139,11 @@ Data Visualisation Rationale
 
 ### Power BI (Desktop and Cloud versions)
 
-- **All charts are created from the \[Yahoo Finance\] & {ETF} dataset**
+- **All charts are created from the {Yahoo Finance:ETF} dataset**
 
 ### Tableau Public (Desktop and Cloud versions)
 
-- All charts are created from the \[Yahoo Finance\] & {ETF} dataset
+- All charts are created from the \[FRED Macroeconomic Indicators\] & {Yahoo Finance:ETF} datasets
 
 - Here we mix and match FRED macroeconomic indicators data and Yahoo Finance ETF datasets according to Feature Importance results
 
