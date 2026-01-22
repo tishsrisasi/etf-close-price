@@ -104,10 +104,10 @@ Audit Trail: Project Board & Documents Provided
 | Testing Checklist & Results Summary | Markdown, 18/01/2026, Version 1.0 |
 | Project Board | https://trello.com/b/bhCNa53F/capstone-project-tish-srisasi-etf-close-price |
 
-Git-Hub Directory Structure
+Git-Hub Directory Structure (Data Files in CSV format)
 ---------------------------
 
-
+![alt text](reports/directory_resources.jpg)
 
 	
 Project Result Highlights
