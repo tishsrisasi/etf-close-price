@@ -211,7 +211,7 @@ Credits
 
 - [**Code Institute: Data Analytics with AI Bootcamp Course Notes**](https://codeinstitute.net/data-analytics-and-ai-bootcamp/) -- The Masterclass Notebooks (by John Anilh) were particularly inspirational for Python code, ML concepts, and data visualization ideas.
 
-- [**Udemy**](https://www.udemy.com/course/tableau-for-beginners-free/learn/lecture/32946634?start=150) -- Free Course on Tableau called "Introduction to Tableau Data Visualization for Beginners -- by Jed Guinto"  
+- [**Udemy**](https://www.udemy.com/course/tableau-for-beginners-free/learn/lecture/32946634?start=150) -- A free course on Tableau called "Introduction to Tableau Data Visualization for Beginners -- by Jed Guinto"  
 
 - [**md2word.com**](https://www.md2word.com/en) for the most help with converting my Word documents to Markdown.
 
