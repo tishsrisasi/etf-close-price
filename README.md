@@ -122,9 +122,17 @@ Project Delivery Challenges & Bug Fixes
 
 ### Data Sourcing
 
+- **Challenge** -- learning how to import data from APIs into data frames & coding the functions to simultaneously pull datasets from BOTH APIs at the same time.
+
 ### Machine Learning Models
 
+- **Potential BUG** -- but more like user error that needs further investigation -- some data rows were missing when linking two datasets using Pandas merge feature (inside join) -- however there were only a few rows difference, so did not impede testing or were significant enough to affect the outcome.
+
+- **Challenge** -- devising a way to match two datasets on dates using two separate/unmerged datasets when the ML model requires them both to have specific and unique dates. Overcame this by using the equivalent of a Microsoft Excel 'VLOOKUP'. Please refer to Notebook No. 4 for more details.
+
 ### Dashboards
+
+- **Potential BUG &** **User Oversight** -- on Tableau -- as the dashboards were build earlier on, due to a typo, I was pulling down ETF Tickers called 'SPY' however it should have been 'SKY'. Due to the version of Tableau we were given, I got an error when trying to change the data source. So, I've left the Tableau data set as is and provided the data files used to create the dashboard for review purposes. Luckily SPY is also a US-Based ETF and has similar characteristics to 'SKY' (probably more by luck than design -- but it appears to have worked out well).
 
 Dashboards: Deployment
 ----------------------
