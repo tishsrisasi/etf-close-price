@@ -77,7 +77,7 @@ Hypotheses (what I intend to prove):
 
 -         **V0:** Parallel testing datasets with and without macroeconomic data using Classical Machine Learning
 
--         **V1:** Classical Machine Learning -- Feature Selection
+-         **V1:** Classical Machine Learning -- Random Forrest Classifier & Feature Selection
 
 -         **V2:** Classical Machine Learning -- Linear Regression
 
