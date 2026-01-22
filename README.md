@@ -159,7 +159,7 @@ Main Data Analysis Tools and Libraries
 
 Business Applications
 ---------------------
-These models have strong business pontential in the finance sector (however for the purposes of this capstone project, it should be used for educational purposes only)_
+These models have strong business pontential in the finance sector (however for the purposes of this capstone project, it should be used for educational purposes only)
 
 - Trading Strategies
 - Portfolio Management
