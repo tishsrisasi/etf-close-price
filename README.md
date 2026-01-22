@@ -167,7 +167,7 @@ These models have strong business pontential in the finance sector (however for 
 - Institutional Applications
 
 ### Next Steps
----------------------
+--------------
 1. Feed the Yahoo Finance: ETF and FRED: macroeconomic indicator data directly into Power BI and Tableau
 2. Use the predictive models to create an app in Streamlit -- then deploy
 3. Add new ETF and Macroeconomic Features for 'premium users' (list provided)
