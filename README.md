@@ -220,9 +220,9 @@ Power BI (Desktop and Cloud Versions)
 Tableau Public (Desktop and Cloud versions)
 -------------------------------------------
 
--          **Target Audience: ETF Watchers & Economic or Financial Business Analysts**
+- **Target Audience: ETF Watchers & Economic or Financial Business Analysts**
 
--          **All charts are created from the \[FRED Macroeconomic Indicator data\] & {Yahoo Finance:ETF} dataset**
+- **All charts are created from the \[FRED Macroeconomic Indicator data\] & {Yahoo Finance:ETF} dataset**
 
 ## Tableau - Heatmap Wall {ETF} & [Macroeconomic] Data
 ![alt text](reports/tableau2_heatmap_wall_db.jpg)
@@ -354,7 +354,7 @@ Disclaimer (UK)
 Credits
 -------
 
-- [**Perplexity AI**](https://perplexity.ai)-- for the Banner Image and Disclaimer (UK) above, as well as helping me with coding API data extraction (Notebook 0), feature enhancement (seasonality), complex loops and (my idea) to run multiple models (as realised in Notebook 4). I also used it to generate the Data Dictionary for both datasets.
+- [**Perplexity AI**](https://perplexity.ai) for the Banner Image and Disclaimer (UK) above, as well as helping me with coding API data extraction (Notebook 0), feature enhancement (seasonality) (Notebooks 0 and 1b), complex loops (Notebook 1b) and (my idea) to run multiple models (as realised in Notebook 4). I also used it to generate the Data Dictionary for both datasets.
 
 - [**Code Institute: Data Analytics with AI Bootcamp Course Notes**](https://codeinstitute.net/data-analytics-and-ai-bootcamp/) -- The Masterclass Notebooks (by John Anilh) were particularly inspirational for Python code, ML concepts, and data visualization ideas.
 
