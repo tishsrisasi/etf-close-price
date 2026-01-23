@@ -97,7 +97,8 @@ Dynamic API Dataset Source (two data sources were used **FRED** for macroeconomi
 Project Plan/Board
 -----------------------------------------------
 
-| **Documentation/Link** | **Document Format, Date & Version Control** |
+| **Documentation** | **Link** |
+| --- |  --- |
 | Project Plan/Board | https://trello.com/b/bhCNa53F/capstone-project-tish-srisasi-etf-close-price |
 
 Git-Hub Directory Structure
