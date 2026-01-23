@@ -304,7 +304,7 @@ Main Data Analysis Libraries
 | [matplotlib.pyplot](https://matplotlib.org/3.5.3/api/_as_gen/matplotlib.pyplot.html) | Data Visualisation -- Data Plots, Bar Charts, Histograms (Used in Notebooks 2 to 4) |
 | [seaborn](https://seaborn.pydata.org/) | Data Visualisation -- Statistical Data Analysis Charts (Used in Notebooks 2 to 4) |
 | [warnings](https://docs.python.org/3/library/warnings.html) | Ignore system warnings (Used in All Notebooks) |
-| [os](https://docs.python.org/3/library/os.html) | Check current directory(Used in All Notebooks) |
+| [os](https://docs.python.org/3/library/os.html) | Check current directory (Used in All Notebooks) |
 | [sklearn.model\_selection](https://scikit-learn.org/stable/api/sklearn.model_selection.html)  | ETF Price Predictions using Linear Regression (Notebooks 2 + 4) |
 [sklearn.linear\_model](https://scikit-learn.org/stable/api/sklearn.linear_model.html)  
 [sklearn.metrics](https://scikit-learn.org/stable/api/sklearn.metrics.html)  
