@@ -94,27 +94,29 @@ Dynamic API Dataset Source (two data sources were used **FRED** for macroeconomi
 | --- |  --- |
 | Yahoo Finance | <https://finance.yahoo.com/markets/etfs/most-active/> |
 
-Audit Trail: Project Board & Documents Provided
+Project Plan/Board
 -----------------------------------------------
 
 | **Documentation/Link** | **Document Format, Date & Version Control** |
-| --- |  --- |
-| Business Requirement Document (mock email format) | Markdown, 18/01/2026, Version 1.0 |
-| Functional Specification Document | Markdown, 18/01/2026, Version 1.0 |
-| Testing Checklist & Results Summary | Markdown, 18/01/2026, Version 1.0 |
 | Project Plan/Board | https://trello.com/b/bhCNa53F/capstone-project-tish-srisasi-etf-close-price |
 
-Git-Hub Directory Structure (Data Files in CSV format)
+Git-Hub Directory Structure
 ---------------------------
 
-![alt text](reports/directory_resources.jpg)
+![Jupyter Notebooks:](reports/jupyter_notebooks.jpg)
+
+
+![Project Documentation: (Business Requirement Doc)](reports/project_docs.jpg)
+
+
+![Data Files:](reports/directory_resources.jpg)
 
 	
-Project Result Highlights
+Project Results (Highlights)
 -----------------------
-![alt text](reports/regression_results1.png)
+![Linear Regression - Close Price Prediction](reports/regression_results1.png)
 
-![alt text](reports/regression_results3.png)
+![Linear Regression - Close Price Prediction - Feature Importance](reports/regression_results3.png)
 
 
 Project Delivery Challenges & Bug Fixes
@@ -126,7 +128,7 @@ Project Delivery Challenges & Bug Fixes
 
 ### Machine Learning Models
 
-- **Potential BUG** -- but more like user error that needs further investigation -- some data rows were missing when linking two datasets using Pandas merge feature (inside join) -- however there were only a few rows difference, so did not impede testing or were significant enough to affect the outcome.
+- **Potential BUG** -- but more like user error that needs further investigation -- some data rows were missing when linking two datasets using Pandas merge feature (inside join) -- however there were only a few rows difference, so did not impede testing and wasn't significant enough to affect the outcome.
 
 - **Challenge** -- devising a way to match two datasets on dates using two separate/unmerged datasets when the ML model requires them both to have specific and unique dates. Overcame this by using the equivalent of a Microsoft Excel 'VLOOKUP'. Please refer to Notebook No. 4 for more details.
 
@@ -145,7 +147,7 @@ Data Visualisation Rationale
 
 - All charts are created from the \[FRED Macroeconomic Indicators\] & {Yahoo Finance:ETF} datasets
 
-- Here we mix and match FRED macroeconomic indicators data and Yahoo Finance ETF datasets according to Feature Importance results
+- Here we mix and match \[FRED Macroeconomic Indicators\] data and {Yahoo Finance: ETF} datasets according to Feature Importance results
 
 - Overall Dashboard: \[Key Macroeconomic Indicators\] vs {ETF Close Price -- 6 chosen ETFs}
 
@@ -184,7 +186,7 @@ Power BI (Desktop and Cloud Versions)
 -------------------------------------
 - **Target Audience: ETF Investors & ETF Traders/Trading Desks**
 
-- **All charts are created from the \[Yahoo Finance\] & {ETF} dataset**
+- **All charts are created from the \[FRED Macroeconomic Indicators\] & {Yahoo Finance:ETF} dataset**
 
 ## Power BI - Board 1 (Dashboard)
 ![Power BI](reports/powerBI2_board1_db.jpg)
@@ -310,11 +312,10 @@ These models have strong business pontential in the finance sector (however for 
 --------------
 1. Feed the Yahoo Finance: ETF and FRED: macroeconomic indicator data directly into Power BI and Tableau
 2. Use the predictive models to create an app in Streamlit -- then deploy
-3. Add new ETF and Macroeconomic Features for 'premium users' (list provided)
-4. Test other types of ML models and see which one gives better predictive accuracy
-5. Finally build a live direct API feed into the ML model and test to see if this can be used to accurately predict ETF direction and current price.
-6. Expand to Global ETF & Macroeconomic datasets using available and relevant APIs.
-7. Further use of ML Cross-Validation models for transparency.
+3. Test other types of ML models and see which one gives better predictive accuracy
+4. Finally build a live direct API feed into the ML model and test to see if this can be used to accurately predict ETF direction and current price.
+5. Expand to Global ETF & Macroeconomic datasets using available and relevant APIs.
+6. Further use of ML Cross-Validation models for transparency.
 
 Ethical Considerations/GDPR
 ---------------------------
@@ -339,7 +340,7 @@ Disclaimer (UK)
 Credits
 -------
 
-- [**Perplexity AI**](https://perplexity.ai)-- for the Banner Image and Disclaimer (UK) above, as well as helping me with coding API data extraction (Notebook 0), complex loops and (my idea) to run multiple models (as realised in Notebook 4).
+- [**Perplexity AI**](https://perplexity.ai)-- for the Banner Image and Disclaimer (UK) above, as well as helping me with coding API data extraction (Notebook 0), feature enhancement (seasonality), complex loops and (my idea) to run multiple models (as realised in Notebook 4).
 
 - [**Code Institute: Data Analytics with AI Bootcamp Course Notes**](https://codeinstitute.net/data-analytics-and-ai-bootcamp/) -- The Masterclass Notebooks (by John Anilh) were particularly inspirational for Python code, ML concepts, and data visualization ideas.
 
@@ -352,7 +353,7 @@ Acknowledgements
 
 - Thank you, Gordon Fuller, for giving me my first city job as a Data Business Analyst.
 
-- This piece of work is dedicated to my sister, Netch, whose cooking skills kept her brother well nourished throughout this course. I couldn't have done all this without your help!
+- This work is dedicated to my sister, Netch, whose cooking skills kept her brother well nourished throughout this course. I couldn't have done all this without your help!
 
 Footnote (as a reminder to myself)
 --------
