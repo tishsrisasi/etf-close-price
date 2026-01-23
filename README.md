@@ -188,7 +188,7 @@ Power BI (Desktop and Cloud Versions)
 
 - **All charts are created from the \[FRED Macroeconomic Indicators\] & {Yahoo Finance:ETF} dataset**
 
-## Power BI - Board 1 (Dashboard)
+## Power BI - Board 1
 ![Power BI](reports/powerBI2_board1_db.jpg)
 
 - {Period Selector} (By Year, Quarter, Month and Day)(List Slicer)
@@ -201,7 +201,7 @@ Power BI (Desktop and Cloud Versions)
 
 - {ETF Average Open Price} (Area Chart)
 
-## Power BI - Board 2 (Dashboard)
+## Power BI - Board 2
 ![alt text](reports/powerBI1_board2_db.jpg)
 
 - {Period Selector} (By Year, Quarter, Month and Day)(List Slicer)
