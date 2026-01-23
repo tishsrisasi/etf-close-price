@@ -354,7 +354,7 @@ Disclaimer (UK)
 Credits
 -------
 
-- [**Perplexity AI**](https://perplexity.ai)-- for the Banner Image and Disclaimer (UK) above, as well as helping me with coding API data extraction (Notebook 0), feature enhancement (seasonality), complex loops and (my idea) to run multiple models (as realised in Notebook 4).
+- [**Perplexity AI**](https://perplexity.ai)-- for the Banner Image and Disclaimer (UK) above, as well as helping me with coding API data extraction (Notebook 0), feature enhancement (seasonality), complex loops and (my idea) to run multiple models (as realised in Notebook 4). I also used it to generate the Data Dictionary for both datasets.
 
 - [**Code Institute: Data Analytics with AI Bootcamp Course Notes**](https://codeinstitute.net/data-analytics-and-ai-bootcamp/) -- The Masterclass Notebooks (by John Anilh) were particularly inspirational for Python code, ML concepts, and data visualization ideas.
 
