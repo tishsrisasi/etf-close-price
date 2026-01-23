@@ -327,9 +327,9 @@ These models have strong business pontential in the finance sector (however for 
 1. Feed the Yahoo Finance: ETF and FRED: macroeconomic indicator data directly into Power BI and Tableau
 2. Use the predictive models to create an app in Streamlit -- then deploy
 3. Test other types of ML models and see which one gives better predictive accuracy
-4. Expand to Global ETF & Macroeconomic datasets using available and relevant APIs.
-5. Further use of ML Cross-Validation models for transparency.
-6. Finally build a live direct API feed into the ML model and test to see if this can be used to accurately predict ETF direction and current price.
+4. Expand to Global ETF & Macroeconomic datasets using available and relevant APIs
+5. Further use of ML Cross-Validation models for transparency
+6. Finally build a live direct API feed into the ML model and test to see if this can be used to accurately predict ETF direction and current price
 
 Ethical Considerations/GDPR
 ---------------------------
