@@ -354,13 +354,13 @@ Disclaimer (UK)
 Credits
 -------
 
-- [**Perplexity AI**](https://perplexity.ai) for the Banner Image and Disclaimer (UK) above, as well as helping me with coding API data extraction (Notebook 0), feature enhancement (seasonality) (Notebooks 0 and 1b), complex loops (Notebook 1b) and (my idea) to run multiple models (as realised in Notebook 4). I also used it to generate the Data Dictionary for both datasets.
+- [**Perplexity AI**](https://perplexity.ai) For the Banner Image and Disclaimer (UK) above, as well as helping me with coding API data extraction (Notebook 0), feature enhancement (seasonality) (Notebooks 0 and 1b), complex loops (Notebook 1b) and (my idea) to run multiple models (as realised in Notebook 4). I also used it to generate the Data Dictionary for both datasets.
 
-- [**Code Institute: Data Analytics with AI Bootcamp Course Notes**](https://codeinstitute.net/data-analytics-and-ai-bootcamp/) -- The Masterclass Notebooks (by John Anilh) were particularly inspirational for Python code, ML concepts, and data visualization ideas.
+- [**Code Institute: Data Analytics with AI Bootcamp Course Notes**](https://codeinstitute.net/data-analytics-and-ai-bootcamp/) The Masterclass Notebooks (by John Anilh) were particularly inspirational for Python code, ML concepts, and data visualization ideas.
 
-- [**Udemy**](https://www.udemy.com/course/tableau-for-beginners-free/learn/lecture/32946634?start=150) -- A free course on Tableau called "Introduction to Tableau Data Visualization for Beginners -- by Jed Guinto"  
+- [**Udemy**](https://www.udemy.com/course/tableau-for-beginners-free/learn/lecture/32946634?start=150) A free course on Tableau called "Introduction to Tableau Data Visualization for Beginners -- by Jed Guinto"  
 
-- [**md2word.com**](https://www.md2word.com/en) for the most help with converting my Word documents to Markdown.
+- [**md2word.com**](https://www.md2word.com/en) For the most help with converting my Word documents to Markdown.
 
 Acknowledgements
 ----------------
