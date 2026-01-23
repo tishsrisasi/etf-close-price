@@ -64,10 +64,10 @@ Hypotheses (what I intend to prove):
 
 | **No.** | **Validation Method Description** |
 | --- |  --- |
-| **V0:** | Parallel testing datasets with and without macroeconomic data using Classical Machine Learning |
-| **V1:** | Classical Machine Learning -- Feature Selection |
-| **V2:** | Classical Machine Learning -- Linear Regression |
-| **V3:** | Feature Engineering - Machine Learning -- Classification by Random Forrest |
+| **V0:** | Classical Machine Learning: Parallel testing datasets with and without macroeconomic data |
+| **V1:** | Classical Machine Learning: Regression (Linear) & Classification plus Feature Selection |
+| **V2:** | Classical Machine Learning: Regression (Linear) plus Feature Selection |
+| **V3:** | Feature Engineering & Classical Machine Learning: Random Forrest Classification plus Feature Selection |
 
 
 Dataset Source(s): Considered
@@ -96,6 +96,7 @@ Dynamic API Dataset Source (two data sources were used **FRED** for macroeconomi
 
 Project Plan/Board
 -----------------------------------------------
+- I've put the User Stories on the relevant tasks, and they are also embedded in the BRD (Business Requirements 'email')  
 
 | **Documentation** | **Link** |
 | --- |  --- |
@@ -103,6 +104,7 @@ Project Plan/Board
 
 Git-Hub Directory Structure
 ---------------------------
+ - In the Jupyter Notebooks (below) - please note that I've used Headings "Notes & Observations", Kindly treat these the same as my Data Analysis Insights.
 
 ![Jupyter Notebooks:](reports/jupyter_notebooks.jpg)
 
